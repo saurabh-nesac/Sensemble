@@ -1,0 +1,4 @@
+noise_channels: 1
+gen_channels: [64, 128, 256]
+disc_channels: [64, 128, 256]
+lambda_l1: 10.0

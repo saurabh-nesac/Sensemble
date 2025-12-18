@@ -1,0 +1,54 @@
+name: sensemble
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  # -------------------------
+  # Core
+  # -------------------------
+  - python=3.10
+  - pip
+
+  # -------------------------
+  # Scientific stack
+  # -------------------------
+  - numpy
+  - scipy
+  - xarray
+  - netcdf4
+  - h5py
+  - pandas
+  - dask
+  - bottleneck
+
+  # -------------------------
+  # Plotting / viz
+  # -------------------------
+  - matplotlib
+  - seaborn
+
+  # -------------------------
+  # ML / DL
+  # -------------------------
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # -------------------------
+  # Utilities
+  # -------------------------
+  - tqdm
+  - pyyaml
+  - scikit-learn
+
+  # -------------------------
+  # Optional (safe to keep)
+  # -------------------------
+  - ipykernel
+  - jupyterlab
+
+  # -------------------------
+  # Pip-only (if needed)
+  # -------------------------
+  - pip:
+      - torchmetrics

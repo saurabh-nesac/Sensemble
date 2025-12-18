@@ -1,0 +1,5 @@
+.idea/
+src/data/__pycache__/
+src/models/__pycache__/
+src/train/__pycache__/
+src/data/raw

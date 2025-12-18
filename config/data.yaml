@@ -1,0 +1,15 @@
+ens_dir: src/data/raw/wrfarw_ensmem_2025092200
+
+conditioning_vars:
+  - PSFC
+  - T2
+  - Q2
+
+target_vars:
+  - T
+  - QVAPOR
+
+level: 10          # 👈 choose one vertical level
+patch_size: 64
+batch_size: 8
+normalize: per_variable
